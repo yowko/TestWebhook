@@ -11,7 +11,7 @@ namespace TestWebhook.Controllers
         public ActionResult Index()
         {
             ViewBag.Title = "Home Page";
-
+            string test = string.Empty;
             return View();
         }
     }
